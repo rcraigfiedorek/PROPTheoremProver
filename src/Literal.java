@@ -1,5 +1,3 @@
-package gentzen;
-
 public class Literal extends Tuple<String,Boolean> {
 
 	public Literal(String x, Boolean y) {

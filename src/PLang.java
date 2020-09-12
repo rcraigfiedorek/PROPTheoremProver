@@ -1,5 +1,3 @@
-package gentzen;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -12,30 +10,6 @@ import java.util.Set;
 import java.util.Stack;
 
 public class PLang {
-	
-	public static void main(String[] Args) {
-		
-		//System.out.println(SLDformGCNFproof("(~(A && B && C)) <-> (~A || ~B || ~C)"));
-		
-		sequentCalcProofsWithInput();
-		
-		
-		/*
-		Tree<String> A = (toCNF(negation(infixReader("(A->B) <-> (~B -> ~A)"))));
-		Tree<String> B = (negation(infixReader("(A->B) <-> (~B -> ~A)")));
-		
-		System.out.println(dualImplication(A,B));
-		
-		System.out.println(search(new Sequent(new ArrayList<>(), Arrays.asList(dualImplication(A,B)))));
-		//*/
-		//sequentCalcProofsWithInput();
-		
-	}
-	
-	
-	
-	
-	
 	
 	public static final Set<String> atomicProps = initializeAtomicProps();
 	private static Set<String> initializeAtomicProps() {
