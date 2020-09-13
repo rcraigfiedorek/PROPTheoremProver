@@ -6,7 +6,7 @@ Compile and run Main.java to run the prover. The prover will prompt you to enter
 
 	<atomic_formula> ::= "A" | "B" | ... | "Z"
 	       <formula> ::= <atomic_formula> | "~" <formula> | <formula> "&&" <formula> |
-	       				 <formula> "||" <formula> | <formula> "->" <formula> | <formula> "<->" <formula> |
-	       				 "(" <formula> ")"
+	                     <formula> "||" <formula> | <formula> "->" <formula> |
+	                     <formula> "<->" <formula> | "(" <formula> ")"
 
 All whitespace in the input will be ignored. Order of operations is <code>~</code>, <code>&&</code>, <code>||</code>, <code>-></code>, <code><-></code>.
